@@ -180,9 +180,12 @@ body {
     align-items: center;
     gap: var(--spacing-sm);
     font-size: var(--font-size-2xl);
-    font-weight: 800;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
     color: var(--primary-blue);
     text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .logo-icon {
@@ -990,10 +993,15 @@ body {
 .services-cta {
     text-align: center;
     margin-top: var(--spacing-2xl);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .services-cta .btn {
     margin-bottom: var(--spacing-lg);
+    width: auto;
+    min-width: 280px;
 }
 
 .services-cta p {
@@ -1575,9 +1583,12 @@ body {
     align-items: center;
     gap: var(--spacing-sm);
     font-size: var(--font-size-2xl);
-    font-weight: 800;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
     margin-bottom: var(--spacing-lg);
     color: var(--white);
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .footer-section h3 {
@@ -2126,7 +2137,7 @@ body {
 }
 
 .service-card-vertical[data-service="eletrica"] .service-icon-bg {
-    background: #EF4444;
+    background: #3B82F6;
 }
 
 .service-card-vertical[data-service="hidraulica"] .service-icon-bg {
@@ -2263,7 +2274,27 @@ body {
 
 .hero-testimonial .testimonial-content strong {
     color: var(--gray-800);
-    font-weight: 600;
+    font-weight: 500;
+    font-family: 'Dancing Script', cursive;
+    font-size: var(--font-size-xl);
+    letter-spacing: 1px;
+    transform: rotate(-2deg);
+    display: inline-block;
+}
+
+.hero-testimonial .signature-area {
+    display: inline-block;
+    border: 2px solid var(--primary-blue);
+    border-radius: var(--border-radius-md);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    margin-top: var(--spacing-sm);
+    font-family: 'Dancing Script', cursive;
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    color: var(--gray-800);
+    background: rgba(59, 130, 246, 0.05);
+    min-width: 120px;
+    text-align: center;
 }
 
 /* Title Updates */
